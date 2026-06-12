@@ -92,22 +92,27 @@ export function EbookCatalog() {
             }}
             className="relative">
             
-            <div className="relative aspect-[655/1024] max-w-md mx-auto">
+            <div className="relative aspect-[3/4] max-w-md mx-auto">
+              {/* Decorative behind-cover blobs */}
+              <div className="absolute -inset-6 bg-lilac-100 rounded-[3rem] blur-2xl opacity-60 -z-10" />
+
               <motion.div
                 whileHover={{
-                  rotate: 0,
+                  scale: 1.02,
                   y: -8
                 }}
                 transition={{
                   type: 'spring',
                   stiffness: 200
                 }}
-                className="absolute inset-0 rounded-2xl overflow-hidden shadow-2xl rotate-[-3deg] origin-center">
+                className="absolute inset-0 rounded-2xl overflow-hidden shadow-2xl">
                 
                 <img
                   src={EBOOK.coverUrl}
                   alt={`Capa do e-book ${EBOOK.title}`}
                   className="w-full h-full object-cover" />
+                
+                <div className="absolute inset-0 bg-gradient-to-t from-sage-800/30 to-transparent" />
               </motion.div>
 
               {/* Floating info badges */}

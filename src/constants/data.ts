@@ -37,7 +37,8 @@ export const EBOOK: Ebook = {
   price: 37.9,
   originalPrice: 49.9,
   promoNote: 'Promocional nos primeiros 15 dias · depois R$ 49,90',
-  coverUrl: '/escrita-terapeutica.jpg',
+  coverUrl:
+    '/WhatsApp Image 2026-06-07 at 15.45.56.jpeg',
   pages: 36,
   format: 'PDF Digital',
   benefits: [

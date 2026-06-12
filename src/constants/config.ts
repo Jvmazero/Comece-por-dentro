@@ -11,7 +11,7 @@ export const CONFIG = {
 
   // External sales page URL (Hotmart, Eduzz, Kiwify, etc.)
   // Replace this with your actual checkout link
-  EXTERNAL_SALES_URL: 'https://pay.suaplataforma.com.br/seu-link-de-venda',
+  EXTERNAL_SALES_URL: 'https://pay.kiwify.com.br/DCNZN0F',
 
   // The two psychologists (co-founders, co-authors)
   PSYCHOLOGISTS: [

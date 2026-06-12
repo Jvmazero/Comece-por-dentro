@@ -44,7 +44,7 @@ export function Header() {
             <img
               src={CONFIG.LOGO_URL}
               alt="Agora, comece por dentro"
-              className="w-12 h-12 shrink-0 rounded-full object-cover bg-white group-hover:scale-105 transition-transform shadow-sm" />
+              className="h-16 w-auto max-w-[150px] shrink-0 rounded-xl object-contain bg-white p-1 group-hover:scale-105 transition-transform shadow-sm" />
             
             <div className="hidden sm:flex flex-col leading-[1.05] min-w-0">
               <span className="font-serif text-2xl md:text-[1.7rem] text-sage-800 tracking-wide truncate">
