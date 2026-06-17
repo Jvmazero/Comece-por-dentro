@@ -16,6 +16,8 @@ module.exports = {
       fontFamily: {
         serif: ['Cormorant', 'Georgia', 'serif'],
         sans: ['DM Sans', 'system-ui', 'sans-serif'],
+        neulis: ['"Neulis Cursive"', 'Neulis', 'cursive', 'sans-serif'],
+        modernline: ['Modernline', 'cursive'],
       },
       colors: {
         // BRAND PRIMARY: Soft Lilac (#c0b3ef) — used as the main brand tone
